@@ -14,7 +14,7 @@ export const CartBlock = () => {
   const totalPrice = calcTotalPrice(items);
   const handleGoToOrderClick = useCallback(() => {
     setIsCartMenuVisible(false);
-    navigate.push('/order');
+    navigate("/order");
   }, [navigate]);
 
   return (
